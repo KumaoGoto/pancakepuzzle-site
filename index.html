@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>パンケーキパズル — サポート</title>
+<meta name="description" content="めくってそろえる、毎日ひと皿の最小手数パズル「パンケーキパズル」のサポートページ。">
+<style>
+  :root{--cream:#FFF6E8;--milk:#fff;--cocoa:#5B4232;--dim:#7D6A54;--syrup:#E8973A;--mint:#4CAF87}
+  *{box-sizing:border-box}
+  body{margin:0;padding:0;background:var(--cream);color:var(--cocoa);
+       font-family:"Hiragino Maru Gothic ProN","ヒラギノ丸ゴ ProN",
+                   "Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+       line-height:1.9;-webkit-text-size-adjust:100%}
+  .wrap{max-width:34rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+  header{text-align:center;margin-bottom:2.5rem}
+  .icon{font-size:3.5rem;line-height:1}
+  h1{font-size:1.75rem;margin:.5rem 0 .25rem;letter-spacing:.04em}
+  .lead{color:var(--dim);font-size:.95rem;margin:0}
+  h2{font-size:1.05rem;margin:2.25rem 0 .5rem;padding-bottom:.35rem;
+     border-bottom:2px solid rgba(232,151,58,.3)}
+  p,li{font-size:.95rem}
+  ul{padding-left:1.2rem}
+  .card{background:var(--milk);border:2px solid rgba(232,151,58,.28);
+        border-radius:1.25rem;padding:1.1rem 1.25rem;margin:1rem 0}
+  /* 丸ゴシックは太字を持たないことがあるので、太さだけに頼らず色で立てる */
+  .q{font-weight:700;color:#B9701E;margin:0 0 .35rem;font-size:.97rem}
+  .a{margin:0}
+  a{color:#B9701E}
+  a.button{display:block;text-align:center;text-decoration:none;font-weight:700;
+           background:var(--syrup);color:#3E2D21;border-radius:1rem;padding:.85rem 1rem;margin:1.25rem 0}
+  footer{margin-top:3rem;text-align:center;color:var(--dim);font-size:.8rem}
+  code{background:rgba(0,0,0,.05);border-radius:.3rem;padding:.1rem .35rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="icon">🥞</div>
+  <h1>パンケーキパズル</h1>
+  <p class="lead">めくってそろえる、毎日ひと皿の最小手数パズル</p>
+</header>
+
+<p>
+  お皿の上に、大きさのちがうパンケーキ。できる操作はひとつだけ、
+  ヘラを差し込んで、そこから上をまとめてひっくり返す。
+  それだけで上から 1、2、3 … の順にそろえる、最小手数のパズルです。
+</p>
+
+<!-- 公開後に App Store のリンクを入れる（ASC で採番された Apple ID）
+<a class="button" href="https://apps.apple.com/jp/app/idXXXXXXXXXX?pt=129314143&amp;ct=site&amp;mt=8">App Store で見る</a>
+-->
+
+<h2>よくある質問</h2>
+
+<div class="card">
+  <p class="q">ヒントが押せません。</p>
+  <p class="a">同じ問題で3回つまずくと押せるようになります。ボタンに「あと◯回」と出ます。
+  ヒントは最短手順の次の一手だけを示すもので、手順の全体は出しません。</p>
+</div>
+
+<div class="card">
+  <p class="q">「きれめ」とは何ですか。</p>
+  <p class="a">隣り合う2枚の数字が続いていないところです。1回めくって減らせるきれめは
+  どうやっても1つまでなので、きれめの数がそのまま「残りの手数の下限」になります。
+  減れば緑、増えれば赤に光ります。</p>
+</div>
+
+<div class="card">
+  <p class="q">今日の一皿は、やり直せますか。</p>
+  <p class="a">何回でも挑戦できます。ただし1回のラン（挑戦）の中では、めくった手は戻せません。
+  いちばん少ない手数がその日のベストとして残ります。</p>
+</div>
+
+<div class="card">
+  <p class="q">記録が消えました。</p>
+  <p class="a">記録は端末の中だけに保存しています。アプリを削除すると消え、
+  機種変更でも引き継げません。ご了承ください。</p>
+</div>
+
+<div class="card">
+  <p class="q">広告を消したのに、別の端末では出ます。</p>
+  <p class="a">設定の「購入を復元」をお試しください。購入したときと
+  <strong>同じ Apple ID</strong> でサインインしている必要があります。</p>
+</div>
+
+<div class="card">
+  <p class="q">遊びかたをもう一度見たい。</p>
+  <p class="a">ホーム右上の歯車 → 設定 →「あそびかたを見る」から、いつでも開けます。</p>
+</div>
+
+<h2>お問い合わせ</h2>
+<p>
+  不具合のご報告やご要望は、こちらまでお願いします。
+  端末の機種と iOS のバージョンを添えていただけると助かります。
+</p>
+<p><a href="mailto:support.kumaogoto@gmail.com">support.kumaogoto@gmail.com</a></p>
+
+<h2>プライバシー</h2>
+<p><a href="privacy.html">プライバシーポリシー</a></p>
+
+<footer>
+  © 2026 Mitsuaki Goto
+</footer>
+
+</div>
+</body>
+</html>
